@@ -3,7 +3,7 @@ body{
 }
 .jumbotron
 {
-    background-image: url(/img/bg.jpg);
+    background-image: url(img/bg.jpg);
     padding-top: 5rem;
     background-color: #66DE93;
     padding-bottom: 22rem;
