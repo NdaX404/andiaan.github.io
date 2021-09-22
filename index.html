@@ -9,12 +9,17 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Navbar aing -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #D83A56;">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #316B83;">
         <div class="container">
-          <a class="navbar-brand" href="#">Andi Bleach Rider</a>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" width="100" alt="logo" class="my-logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,16 +37,24 @@
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Who AM I</a>
-              </li>
+              <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Who Am i
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">People</a></li>
+            <li><a class="dropdown-item" href="#">Equal</a></li>
+            <li><a class="dropdown-item" href="#">Sh!1!T</a></li>
+          </ul>
+        </li>
+              
+                <li><a href="https://facebook.com/NdaX404/"><i class=" btn btn-danger bi bi-facebook link-sosmed"> Facebook</i></li></a>
+                <li><a href="https://instagram.com/andybachok"><i class=" btn btn-danger bi bi-instagram link-sosmed"> Instagram</i></li></a>
+                <li><i class=" btn btn-danger bi bi-twitter link-sosmed"> Twitter</i></li>
               
               
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn text-white" type="submit">Search</button>
-            </form>
+          
           </div>
         </div>
       </nav>
@@ -51,7 +64,8 @@
       <section class="jumbotron text-center" style="background-image: url(img/bg.jpg);">
        <img src="img/pic.jpg" alt="mypuc" width="200" class="rounded-circle img-thumbnail">
        <h1 class="display-4 text-white">Andi</h1>
-       <p class="lead text-white">Programmer | Rebaners</p>
+       <p class="lead text-white">Programmer | Rebahaners</p>
+       <p class="lead text-white ngoding">Ngoding gk jelas tapi Running !!!!</p>
        
       </section>
       
@@ -64,18 +78,21 @@
                         <img src="img/1.jpg" alt="auhah" class="kesayangan card-img-top" width="400">
                         <h2>Hacking</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, magnam?</p>
+                        <button type="button" class="btn btn-primary">Click Me</button>
                         
                     </div>
                     <div class="col-md-4">
                         <img src="img/c.jpg" alt="auhah" class="kesayangan card-img-top" width="400">
                         <h2>My Desktop</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, magnam?</p>
+                        <button type="button" class="btn btn-primary">Click Me</button>
                         
                     </div>
                     <div class="col-md-4">
                         <img src="img/b.jpg" alt="auhah" class="kesayangan card-img-top" width="400">
                         <h2>Kali Linux</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, magnam?</p>
+                        <button type="button" class="btn btn-primary">Click Me</button>
                         
                     </div>
                 </div>
@@ -95,6 +112,7 @@
               <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae amet sit beatae dolorem deserunt reiciendis enim rem soluta ut, architecto fugit hic dolor voluptatem vero.</div>
           </div>
       </div>
+    
     </section>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#66DE93" fill-opacity="1" d="M0,256L30,240C60,224,120,192,180,176C240,160,300,160,360,176C420,192,480,224,540,229.3C600,235,660,213,720,186.7C780,160,840,128,900,133.3C960,139,1020,181,1080,197.3C1140,213,1200,203,1260,181.3C1320,160,1380,128,1410,112L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
       <!-- END About -->
@@ -187,14 +205,15 @@
             </div>
         </div>
     </section>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d83a56" fill-opacity="1" d="M0,288L34.3,282.7C68.6,277,137,267,206,234.7C274.3,203,343,149,411,154.7C480,160,549,224,617,245.3C685.7,267,754,245,823,250.7C891.4,256,960,288,1029,288C1097.1,288,1166,256,1234,234.7C1302.9,213,1371,203,1406,197.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#316B83" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       <!-- akhir contact me -->
       <!-- Footer-->
-      <footer class="text-white text-center p-5" style="background-color: #D83A56;">
+      <footer class="text-white text-center p-5" style="background-color: #316B83;">
           <p>Ctreated with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
           </svg></i> <a class="text-white fw-bold " href="https://instagram/andybachok">Andi Aan</a></p>
       </footer>
       <!-- Akhir Footer -->
+
 </body>
 </html>
