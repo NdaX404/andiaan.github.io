@@ -65,6 +65,7 @@ section {
 @media (max-width: 957px) {
   .link-sosmed {
     margin-bottom: 10px;
+    margin-top: 15px;
   }
 
   .dropdown-menu {
@@ -78,5 +79,8 @@ section {
     background-color: #316b83;
     font-weight: 400;
     color: white;
+  }
+  .cards {
+    margin-bottom: 19px;
   }
 }
