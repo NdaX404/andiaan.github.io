@@ -208,3 +208,9 @@
     width: 400px;
   }
 }
+
+@media (max-width: 484px) {
+  .sidebar select {
+    width: 350px;
+  }
+}
