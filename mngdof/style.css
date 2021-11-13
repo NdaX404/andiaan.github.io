@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  background-color: #fbf46d;
+  border-radius: 10px;
+}
+
+.navbar {
+  background-color: #b4fe98;
+  border-radius: 10px;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #fbf46d;
+  border-radius: 6px;
+  color: white;
+}
+
+.navbar-nav ul {
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.navbar .navbar-nav {
+  margin-left: 20px;
+}
+
+.content .welcome marquee {
+  width: 400px;
+  background-color: #77e4d4;
+  color: white;
+  font-weight: bold;
+}
+
+.content {
+  background-color: #cacaca;
+  border-bottom: 3px solid #fbf46d;
+  border-left: 3px solid #fbf46d;
+  border-right: 3px solid #fbf46d;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.hero {
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  height: 400px;
+  background-position: 0 -50px;
+  margin-top: -10px;
+
+}
+
+.content h3 {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.content p {
+  padding: 7px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.content h4 {
+  background-color: #fbf46d;
+  width: 700 px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  padding: 7px;
+}
+
+
+
+
+
+.poin h4 {
+  background-color: #fbf46d;
+  width: 700 px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  padding: 7px;
+}
+
+.poin {
+  background-color: #cacaca;
+  border-bottom: 3px solid #fbf46d;
+  border-left: 3px solid #fbf46d;
+  border-right: 3px solid #fbf46d;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.contact form {
+  padding: 15px;
+}
+
+.contact button {
+  margin: 15px;
+}
+
+.tentang h5 {
+  text-align: center;
+}
+
+.tentang img {
+  float: left;
+}
+
+.tentang p {
+  text-align: justify;
+  margin: 10px;
+}
+
+
+.contat-person {
+  background-color: #cacaca;
+}
+
+
+.isinya {
+  margin-top: 10px;
+}
+
+.sidebar h3 {
+  text-align: center;
+}
+
+.sidebar h6 {
+  margin: 8px;
+}
+
+.sidebar select {
+  margin: 14px;
+  width: 350px;
+}
+
+.sidebar button {
+  float: right;
+  margin: 10px;
+  text-transform: uppercase;
+  margin-right: 16px;
+}
+
+.isiapanya p {
+  color: #cacaca;
+}
+
+.footer {
+  text-align: center;
+  padding: 6px;
+  background-color: #b4fe98;
+  border-radius: 5px;
+  margin-top: 9px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+@media (min-width: 768px) {
+  .sidebar select {
+    width: 300px;
+  }
+}
