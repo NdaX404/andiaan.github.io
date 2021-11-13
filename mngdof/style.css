@@ -173,8 +173,38 @@
   overflow: auto;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 980px) {
+  .sidebar select {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1008px) {
+  .sidebar select {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1252px) {
   .sidebar select {
     width: 300px;
+  }
+}
+
+@media (max-width: 1194px) {
+  .sidebar select {
+    width: 200px;
+  }
+}
+
+@media (max-width: 998px) {
+  .sidebar select {
+    width: 600px;
+  }
+}
+
+@media (max-width: 748px) {
+  .sidebar select {
+    width: 400px;
   }
 }
