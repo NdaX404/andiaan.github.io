@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  width: 1000px;
+  background: white;
+  border: 1px solid black;
+}
+
+.container .header h1 {
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #474747;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 4px;
+  font-style: 16px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.header ul li {
+  list-style: none;
+  margin-right: 15px;
+  padding: 8px;
+}
+.header ul li a {
+  text-decoration: none;
+}
+
+.header ul li:hover {
+  background-color: salmon;
+  border-radius: 5px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.header ul li a:hover {
+  color: white;
+  font-weight: 400;
+}
+
+.pencarian {
+  float: right;
+  margin-top: -30px;
+  margin-right: 10px;
+}
+
+.pencarian input[type="text"] {
+  height: 20px;
+}
+
+.rilis {
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.rilis a {
+  font-style: oblique;
+  text-decoration: none;
+}
+
+.hero {
+  height: 330px;
+  background-size: cover;
+  background-image: url(gambarku.jpg);
+  margin-top: 10px;
+  background-position: 0 -100px;
+}
+
+.main {
+  width: 600px;
+  float: left;
+}
+
+.sidebar {
+  float: right;
+  width: 330px;
+  padding: 20px;
+}
+
+.sidebar img {
+  width: 100px;
+  height: 100px;
+  padding-top: 10px;
+  float: left;
+  padding-right: 10px;
+}
+
+.sidebar p {
+  text-align: justify;
+  font: 14px/15px Arial;
+}
+
+.contact {
+  width: 330px;
+  padding-top: 20px;
+}
+
+.contact input[type="text"],
+input[type="email"] {
+  height: 20px;
+}
+
+.contact table,
+tr,
+td {
+  padding: 5px;
+}
+
+.main h2 {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+.main p {
+  padding-bottom: 15px;
+  margin-left: 18px;
+  text-align: justify;
+}
+
+.tags {
+  width: 330px;
+  padding-top: 10px;
+}
+
+.tags h3 {
+  padding-bottom: 5px;
+}
+
+.tags ul li {
+  list-style: disc;
+  padding: 3px;
+  margin-left: 9px;
+}
+
+.tags ul li a {
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  background-color: #474747;
+  color: white;
+  padding: 10px 10px 10px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 5px;
+}
+
+.tombol {
+  height: 20px;
+  background-color: rgb(127, 255, 165);
+  width: 70px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.clearfix {
+  overflow: auto;
+}
