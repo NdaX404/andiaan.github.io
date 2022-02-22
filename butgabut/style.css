@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    font-family: 'Poppins',
+    sans-serif;
+    font-family: 'Source Sans Pro',
+    sans-serif;
+*/
+
+body p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.navbar {
+    height: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+}
+
+.navbar .navbar-brand {
+    padding: 40px;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding: 10px;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+    background-color: white;
+    border-radius: 7px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.main-content {
+    margin: 0 100px;
+    margin-top: 5px;
+}
+
+.underline {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.footernya {
+
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    border-radius: 9px;
+}
+
+.footernya h5 {
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+
+}
+
+@media (min-width: 1200px) {
+    .card img {
+        width: 1000px;
+    }
+}
